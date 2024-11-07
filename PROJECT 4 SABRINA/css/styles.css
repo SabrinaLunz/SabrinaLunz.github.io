@@ -1,0 +1,209 @@
+    /* Author: [Sabrina Lunz] */
+/* Date: 10/10/24 */
+/* File: styles.css */
+
+
+body, header, nav, main, footer, img, h1, h3, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  body {
+    background-color: #f6eee4;
+    font-family: 'Lora', serif;
+  }
+  ul {
+    margin: 0;
+} 
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  nav {
+    background-color: #2a1f14;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: block;
+    border-top: 0.5px solid #f6eee4;
+  }
+    
+  nav li a {
+    display: block;
+    color: #f6eee4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+  }
+  .round {
+    border-radius: 6px;
+}
+#info ul {
+  margin-left: 10%;
+}
+
+  main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+  }
+  
+  main p {
+    font-size: 1.25em;
+  }
+  
+  main h3 {
+    padding-top: 2%;
+  }
+  
+  main ul {
+    list-style-type: square;
+  }
+
+  .link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #contact {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding: 1% 0;
+  }
+  
+  footer a {
+    color: #f3e6d8;
+    text-decoration: none;
+  }
+
+  table {
+    border: 1px solid #2a1f14;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+  }
+  
+  th, td {
+    border: 1px solid #2a1f14;
+    padding: 1%;
+  }
+  
+  th {
+    background-color: #2a1f14;
+    color: #fff;
+    font-size: 1.15em;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #deccba;
+  }
+
+  
+  /* styles */
+
+fieldset, input, textarea {
+  margin-bottom: 2%;
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+label {
+  display: block;
+  padding-top: 2%;
+}
+
+#submit {
+  margin: 0 auto;
+  display: block;
+  padding: 2%;
+  background-color: #78593a;
+  color: #f6eee4;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+
+/* Tablet Viewport: Style rule for form element */
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Desktop Viewport: Style rules for form elements */
+form {
+  width: auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.btn {
+  grid-column: 1 / span 2;
+}
+
+
+/* Style rules for mobile viewport */
+
+/* Style rules to show mobile class and hide tab-desk class */
+.mobile {
+  display: block;
+}
+
+.tab-desk {
+  display: none;
+}
+
+/* Style rules for header area */
+.mobile h1, .mobile h3 {
+  padding: 1%;
+  text-align: center;
+}
+.mobile h1 {
+  font-family: 'Emblema One', sans-serif;
+}
+
+.mobile h3 {
+  font-family: 'Lora', serif;
+}
+
+.tel-link {
+  background-color: #2a1f14;
+  padding: 2%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tel-link a {
+  color: #f6eee4;
+  text-decoration: none;
+  font-weight: bold;
+}
